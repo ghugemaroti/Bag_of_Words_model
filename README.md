@@ -37,7 +37,9 @@ After importing these packages we proceed to our next step of reading the datase
 We have read "Train" , "Test" , "Unlabeledtrain " datasets using "pd.read_csv" meathod.
 
 train dataset is having - 25000 rows and 3 columns ("id" , "sentiment" , "review")
+
 test dataset is having - 25000 rows and 2 columns ("id" ,"review")
+
 unlabeledTrain dataset is having - 50000 rows and 2 columns ("id" ,"review")
 
 
@@ -61,7 +63,9 @@ Random forest is a ensembel learning meathod we use for classification problems.
  
 # Data fields:
  id - Unique ID of each review
+ 
  sentiment - Sentiment of the review; 1 for positive reviews and 0 for negative reviews
+ 
  review - Text of the review
  
 # Saving file in output file 
