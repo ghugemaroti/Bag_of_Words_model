@@ -13,11 +13,17 @@ Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4"
 
 *we using following libraries versions:
  python: 3.5.0 (v3.5.0:374f501f4567, Sep 13 2015, 02:27:37) [MSC v.1900 64 bit (AMD64)]
+ 
  pandas: 0.23.4
+ 
  numpy: 1.15.0
+ 
  bs4: 4.6.3
+ 
  sklearn: 1.1.0
+ 
  nltk: 3.3
+ 
  re: 2.2.1
 
 # importing libraries
