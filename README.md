@@ -1,9 +1,12 @@
 # Bag of Words Meets Bags of Popcorn
 
 This is the kaggele competition. In this we are performing sentiment analysis on the dataset ( https://www.kaggle.com/c/word2vec-nlp-tutorial ) having  movies reviews.
+
 Our Aim is to predict the movies reviews by training the given train data set and applying the predictions on the test dataset and unlabeled train data.
+
 We are using "jupyter notebook with pyhton 3.5.0". jupyter notebook provides a favorable envirenment with having python shell.
 python has some predefined packages and libraries which is used for machine learning.
+
 Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4" , "OS","re".
 
 # packages and there functions.
@@ -12,6 +15,7 @@ Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4"
 *eg:- pip install sklearn 
 
 *we using following libraries versions:
+
  python: 3.5.0 (v3.5.0:374f501f4567, Sep 13 2015, 02:27:37) [MSC v.1900 64 bit (AMD64)]
  
  pandas: 0.23.4
@@ -80,6 +84,7 @@ Output.to_csv("file_name") meathod is used for saving the results into file.
 
 # output file names are:
   test_data_predict_model.csv
+  
   unlabeledTrain_output.csv
 
 # Zip file includes following four files:
