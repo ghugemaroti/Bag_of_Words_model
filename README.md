@@ -5,6 +5,7 @@ This is the kaggele competition. In this we are performing sentiment analysis on
 Our Aim is to predict the movies reviews by training the given train data set and applying the predictions on the test dataset and unlabeled train data.
 
 We are using "jupyter notebook with pyhton 3.5.0". jupyter notebook provides a favorable envirenment with having python shell.
+
 python has some predefined packages and libraries which is used for machine learning.
 
 Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4" , "OS","re".
@@ -52,6 +53,7 @@ import re
 
 # Reading dataset
 After importing these packages we proceed to our next step of reading the dataset / file .
+
 We have read "Train" , "Test" , "Unlabeledtrain " datasets using "pd.read_csv" meathod.
 
 train dataset is having - 25000 rows and 3 columns ("id" , "sentiment" , "review")
@@ -63,8 +65,10 @@ unlabeledTrain dataset is having - 50000 rows and 2 columns ("id" ,"review")
 
 # cleaning dataset
 After completion of first step we moved to pre-processing of dataset.
+
 In this we removed the unnecessary words from the "review" column of the dataset. For this we have used "Beautifulsoup" and "stopwords"
 meathod in our cleaning section of code.
+
 we perform this operation on every dataset.
 
 # Making bag of words
@@ -72,11 +76,14 @@ In this step we are creating the bag of features. we took upto 5000 features out
 
 # Train the classifier
 Here we are doing training of our model on test dataset .
+
 RandomforestClassifier form package Sklearn.ensemble is used to train the model .
+
 Random forest is a ensembel learning meathod we use for classification problems.
 
 # Predicting reviews on testing and unlabeled data.
  After fiting the model on train data. we are ready to make predictions on test and unlabeledTrain datasets.
+ 
  So, here we will pass the test and unlabled data for the prdiction to the trained model.
  
 # Data fields:
@@ -88,6 +95,7 @@ Random forest is a ensembel learning meathod we use for classification problems.
  
 # Saving file in output file 
 The final predictions result will be stored in as a "CSV" extension file.
+
 Output.to_csv("file_name") meathod is used for saving the results into file.
 
 # output file names are:
