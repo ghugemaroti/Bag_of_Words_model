@@ -6,7 +6,8 @@ We are using "jupyter notebook with pyhton 3.5.0". jupyter notebook provides a f
 python has some predefined packages and libraries which is used for machine learning.
 Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4" , "OS","re".
 
-#packages and there functions.
+# packages and there functions.
+
 *In case if packages / libraries are not already available . we will first insatll them by using "pip" command' in command promt.
 *eg:- pip install sklearn 
 
@@ -58,7 +59,7 @@ Random forest is a ensembel learning meathod we use for classification problems.
  After fiting the model on train data. we are ready to make predictions on test and unlabeledTrain datasets.
  So, here we will pass the test and unlabled data for the prdiction to the trained model.
  
-*Data fields:
+# Data fields:
  id - Unique ID of each review
  sentiment - Sentiment of the review; 1 for positive reviews and 0 for negative reviews
  review - Text of the review
@@ -67,7 +68,7 @@ Random forest is a ensembel learning meathod we use for classification problems.
 The final predictions result will be stored in as a "CSV" extension file.
 Output.to_csv("file_name") meathod is used for saving the results into file.
 
-*output file names are:
+# output file names are:
   test_data_predict_model.csv
   unlabeledTrain_output.csv
 
