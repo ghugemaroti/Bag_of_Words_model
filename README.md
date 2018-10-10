@@ -32,14 +32,22 @@ Here we have used packages like  "Sklearn" , "Numpy" , "Pandas" , "nltk" , "bs4"
 
 # importing libraries
 import pandas as pd                                 # reading the .CSV file I/O (e.g. pd.read_csv)
+
 import numpy as np                                  # data manipulation
+
 from bs4 import BeautifulSoup                       # for pulling data out of HTML and XML files.
+
 from sklearn.feature_extraction.text import CountVectorizer 
                                                     #extract features in a format supported by ML algorithms(such as text)
+                                                    
 from sklearn.ensemble import RandomForestClassifier # for classification and prediction 
+
 import nltk                                         # removes unnecessary words from dataset
+
 from nltk.corpus import stopwords
+
 import os
+
 import re 
 
 # Reading dataset
