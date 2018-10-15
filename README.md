@@ -1,6 +1,6 @@
 # Bag of Words Meets Bags of Popcorn
 
-This is the kaggele competition. In this we are performing sentiment analysis on the dataset ( https://www.kaggle.com/c/word2vec-nlp-tutorial ) having  movies reviews.
+This is the kaggle competition. In this we are performing sentiment analysis on the dataset ( https://www.kaggle.com/c/word2vec-nlp-tutorial ) having  movies reviews.
 
 Our Aim is to predict the movies reviews by training the given train data set and applying the predictions on the test dataset and unlabeled train data.
 
